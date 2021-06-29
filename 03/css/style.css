@@ -1,0 +1,19 @@
+@import url(reset.css);
+@keyframes borderLight {
+  from {border: 20px solid red;}
+  to {border: 20px solid blue;}
+}
+
+.page {
+    padding: 1em;
+}
+
+.short-bio {
+  font-size: 1.5em;
+  max-width: 30em;
+}
+
+.animated {
+  animation: borderLight 1s linear infinite alternate;
+  padding: 1em;
+}

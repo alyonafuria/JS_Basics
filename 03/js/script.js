@@ -1,0 +1,12 @@
+const body = document.querySelector('body');
+body.style.backgroundColor = '#696969';
+const page = document.getElementsByClassName('.page');
+body.style.color = 'ghostwhite';
+const name = document.querySelector('.name');
+name.innerHTML = '<p>DJ Rashad</p>';
+const img = document.querySelector('img');
+img.setAttribute('src', 'https://z9j9e3w7.stackpathcdn.com/wp-content/uploads/2014/04/DJ-Rashad-RIP-900x900.jpg');
+img.setAttribute('width', '500px');
+const animated = document.querySelector('.short-bio');
+animated.className += ' animated';
+console.log(animated.className);
