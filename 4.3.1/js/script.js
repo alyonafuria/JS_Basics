@@ -9,11 +9,11 @@ let computer = Math.floor(Math.random() * 3);
 
 // опишем все условия и будем выводить в консоль 'computer win' или 'player win'
 
-if((player==rock && computer==scissors) || (player==scissors && computer==paper) || (player==paper && computer==rock)){
+if((player===rock && computer===scissors) || (player===scissors && computer===paper) || (player===paper && computer===rock)){
 	console.log('player win');
 }
 
-else if((player==rock && computer==paper) || (player==scissors && computer==rock) || (player==paper && computer==scissors)) {
+else if((player===rock && computer===paper) || (player===scissors && computer===rock) || (player===paper && computer===scissors)) {
 	console.log('computer win');
 }
 

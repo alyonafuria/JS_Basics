@@ -4,5 +4,5 @@ number = parseInt(number);
 if(number>=0) {
 	console.log(number);
 } else {
-	console.log(Math.abs(number));
+	console.log(-(number));
 }
