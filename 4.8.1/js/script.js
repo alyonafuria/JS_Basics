@@ -5,7 +5,7 @@ let watchesSum = parseFloat(prompt("how much these watches cost?", "500$")) * wa
 let earringsSum = parseFloat(prompt("how much these earrings cost?", "50$")) * earringsCount;
 
 function haveEnough (totalCash, watchesSum, earringsSum) {
-	totalCash >= (watchesSum + earringsSum) ? document.write('Enough $$$') : document.write('Not enough $$$');
+document.write(totalCash >= (watchesSum + earringsSum) ? 'Enough $$$' : 'Not enough $$$')
 }
 
 haveEnough();
