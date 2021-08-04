@@ -1,9 +1,9 @@
-let popup = document.querySelector('.popup');
-let request = document.querySelector('.request');
-let closepopup = document.querySelector('.closePopup');
-let menu = document.querySelector('.menu');
-let openmenu = document.querySelector('.openMenu');
-let closemenu = document.querySelector('.closeMenu');
+const popup = document.querySelector('.popup');
+const request = document.querySelector('.request');
+const closepopup = document.querySelector('.closePopup');
+const menu = document.querySelector('.menu');
+const openmenu = document.querySelector('.openMenu');
+const closemenu = document.querySelector('.closeMenu');
 
 request.addEventListener('click', () => {
   popup.style.display = 'flex';
