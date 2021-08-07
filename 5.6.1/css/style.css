@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+body {
+	height: 100vh;
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
+}
+
+.box {
+	width: 50vh;
+	border: 5px solid blue;
+	padding: 30px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+form {
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items:  center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+}
+
+input[type="number"] {
+	box-shadow: 0 1px #142438;
+	height: 1.8rem;
+}
+
+input[type="submit"] {
+	box-sizing: border-box;
+	background-color: #142438;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: white;
+}
+
+input[type="submit"]:hover {
+	background-color: #E0AD4D;
+	color: #142438;
+}
+
+.result {
+	margin: auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+}
