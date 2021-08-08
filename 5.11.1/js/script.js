@@ -10,7 +10,9 @@ let newSchool = [
 ]
 
 for (people of newSchool) {
-  for (person of people) {
-    console.log(person);
+  for (personas of people) {
+    for (person of personas) {
+      console.log(person);
+    }
   }
 }
