@@ -9,10 +9,8 @@ let newSchool = [
   ]
 ]
 
-for (rapper of newSchool) {
-  console.log(newSchool[0][0].concat(newSchool[1][0]));
-}
-
-for (producer of newSchool) {
-console.log(newSchool[0][1].concat(newSchool[1][1]));
+for (people of newSchool) {
+  for (person of people) {
+    console.log(person);
+  }
 }
