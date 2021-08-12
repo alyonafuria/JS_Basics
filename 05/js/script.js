@@ -27,18 +27,16 @@ crypto.forEach(currency => {
 
   const myPrice = document.createElement('h3');
   myPrice.textContent = currency.price;
+  myPrice.style.paddingBottom = '0.3rem';
   myPrice.style.fontSize = '1.5rem';
   myPrice.style.fontFamily = 'Helvetica';
 
   const myGraph = document.createElement('div');
   myGraph.classList.add('colors');
+  myGraph.classList.add('colors-' + currency.name.toLowerCase());
   myGraph.style.height = '5vh';
   myGraph.style.width = currency.price / 5 + "px";
-  myGraph.style.backgroundColor = 'red';
-
-  const colors = document.querySelectorAll('.colors');
-  console.log(colors);
-  //colors[1].style.backgroundColor = 'blue';
+  myGraph.style.border = 'solid 1px #5D6D7E';
 
   container.append(myElement);
   myElement.append(myName);
@@ -46,3 +44,9 @@ crypto.forEach(currency => {
   myElement.append(myGraph);
 });
 
+const blue = document.querySelector('.colors-bitcoin');
+blue.style.backgroundColor = '#5DADE2';
+const red = document.querySelector('.colors-ethereum');
+red.style.backgroundColor = '#E74C3C';
+const green = document.querySelector('.colors-litecoin');
+green.style.backgroundColor = '#58D68D';
