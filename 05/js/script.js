@@ -43,10 +43,3 @@ crypto.forEach(currency => {
   myElement.append(myPrice);
   myElement.append(myGraph);
 });
-
-const blue = document.querySelector('.colors-bitcoin');
-blue.style.backgroundColor = '#5DADE2';
-const red = document.querySelector('.colors-ethereum');
-red.style.backgroundColor = '#E74C3C';
-const green = document.querySelector('.colors-litecoin');
-green.style.backgroundColor = '#58D68D';

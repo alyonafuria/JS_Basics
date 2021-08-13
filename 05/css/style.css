@@ -1,1 +1,13 @@
 @import url(reset.css);
+
+.colors-bitcoin {
+background-color: #5DADE2;
+}
+
+.colors-ethereum {
+background-color: #E74C3C;
+}
+
+.colors-litecoin {
+background-color: #58D68D;
+}
