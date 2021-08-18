@@ -9,12 +9,12 @@ class Tiger {
 }
 
 //подкласс
-class angryTiger extends Tiger {
+class AngryTiger extends Tiger {
 	throwDart() {
 		return 'ZzZzzZzZz';
 	}
 }
 
 //Экземпляр
-const Bart = new angryTiger ('Bart');
-console.log(Bart.throwDart());
+const bart = new AngryTiger ('Bart');
+console.log(bart.throwDart());
